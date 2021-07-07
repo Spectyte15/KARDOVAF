@@ -1,0 +1,314 @@
+    
+/* NOMBRE */
+    #nombre {
+        background: radial-gradient(circle,#FDE1DA,#FBCEC1,#FAB9A7); 
+        font-size: 100px;
+        font-family: Edwardian Script ITC; 
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    #karla:hover {
+        cursor: default;
+        /* effect-shine */
+        background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    	-webkit-background-size: 150px;
+    	color: rgba(0, 0, 0, 0.5);
+    	-webkit-background-clip: text;
+    	text-shadow: 0 0px 0px rgba(255, 255, 255, 0.3);
+        animation: shine 5s infinite;
+    }
+
+    @-webkit-keyframes shine {
+    	0%, 10% {
+    		background-position: -1000px;
+    	}
+    	20% {
+    		background-position: top left;
+    	}
+    	90% {
+    		background-position: top right;
+    	}
+    	100% {
+    		background-position: 1000px;
+    	}
+    }
+    
+
+/* Números en índice */
+    .num {
+        border-radius: 50%;
+        padding: 1px;
+        width: 40px;
+        height: 40px;
+        border: 4px solid #8F004C;
+        font-size: 20px;
+        font-family: Georgia;
+        text-align: center;
+    }
+    
+/* Texto índice */
+    .ind {
+        text-align: center;
+        font: 50px Georgia;
+        margin-left:10;
+    }
+    
+/* Button 1 índice */
+    #bt1 {
+        margin-left:15%; 
+        color: #8F004C; 
+        background: linear-gradient(#FF99CE,#FFADD8,#FFC2E1); 
+        width: 450;
+        transition: width 1s, margin 1s;
+    }
+    
+    #bt1:hover {
+        background: linear-gradient(#FF99CE,#FF5CB0,#FF339C);
+        width: 100%;
+        margin-left:0;
+        color: #FFFFFF;
+    }
+    
+    #bt1:active {
+        background: linear-gradient(#404040,#606060,#808080);
+    }
+    
+    #bt1:hover .num{
+        border: 4px solid #FFFFFF;
+    }
+    
+/* Button 2 índice */
+    #bt2 {
+        margin-left:25%; 
+        color: #8F004C; 
+        background: linear-gradient(#FF99CE,#FFADD8,#FFC2E1); 
+        width: 450;
+        transition: width 1s, margin 1s;
+    }
+    
+    #bt2:hover {
+        background: linear-gradient(#FF99CE,#FF5CB0,#FF339C);
+        width: 100%;
+        margin-left:0;
+        color: #FFFFFF;
+    }
+    
+    #bt2:active {
+        background: linear-gradient(#404040,#606060,#808080);
+    }
+    
+    #bt2:hover .num{
+        border: 4px solid #FFFFFF;
+    }
+    
+/* Button 3 índice */
+    #bt3 {
+        margin-left:35%; 
+        color: #8F004C; 
+        background: linear-gradient(#FF99CE,#FFADD8,#FFC2E1); 
+        width: 450;
+        transition: width 1s, margin 1s;
+    }
+    
+    #bt3:hover {
+        background: linear-gradient(#FF99CE,#FF5CB0,#FF339C);
+        width: 100%;
+        margin-left:0;
+        color: #FFFFFF;
+    }
+    
+    #bt3:active {
+        background: linear-gradient(#404040,#606060,#808080);
+    }
+    
+    #bt3:hover .num{
+        border: 4px solid #FFFFFF;
+    }
+    
+/* Button 4 índice */
+    #bt4 {
+        margin-left:45%; 
+        color: #8F004C; 
+        background: linear-gradient(#FF99CE,#FFADD8,#FFC2E1); 
+        width: 450;
+        transition: width 1s, margin 1s;
+    }
+    
+    #bt4:hover {
+        background: linear-gradient(#FF99CE,#FF5CB0,#FF339C);
+        width: 100%;
+        margin-left:0;
+        color: #FFFFFF;
+    }
+    
+    #bt4:active {
+        background: linear-gradient(#404040,#606060,#808080);
+    }
+    
+    #bt4:hover .num{
+        border: 4px solid #FFFFFF;
+    }
+
+/* Button 5 índice */
+    #bt5 {
+        margin-left:55%; 
+        color: #8F004C; 
+        background: linear-gradient(#FF99CE,#FFADD8,#FFC2E1); 
+        width: 450;
+        transition: width 1s, margin 1s;
+    }
+    
+    #bt5:hover {
+        background: linear-gradient(#FF99CE,#FF5CB0,#FF339C);
+        width: 100%;
+        margin-left:0;
+        color: #FFFFFF;
+    }
+    
+    #bt5:active {
+        background: linear-gradient(#404040,#606060,#808080);
+    }
+    
+    #bt5:hover .num{
+        border: 4px solid #FFFFFF;
+    }
+
+/* Título Motivación */
+    #motiv {
+        position: absolute;
+        z-index: 1;
+        font-size: 80px;
+        font-family: 'Bauhaus 93';
+        width: 500px; 
+        height: 15  0px; 
+        background: linear-gradient(#FBFFB9,#FFBAC4,#FF99CE);
+        -webkit-transform: skewY(-10deg); 
+        -moz-transform: skewY(-10deg); 
+        -o-transform: skewY(-10deg); 
+        margin-left:20%
+    }
+    
+/* Cuerpo Motivación */
+    #body_motiv {
+        position:relative;
+        margin-top: 30px;
+        background: repeating-linear-gradient(to bottom,#FDDFD7,#FFBAC4,#FBFFB9,#FAB9A7,#FEFFEB,#FBFFB9,#FDDFD7 100%);
+        font-size: 30px;
+        font-family: 'Monotype Corsiva';
+    }
+    
+/* Título Objetivo */
+    #obj {
+        position: absolute;
+        z-index: 1;
+        font-size: 80px;
+        font-family: 'Bauhaus 93';
+        width: 500px; 
+        height: 15  0px; 
+        background: linear-gradient(#FBFFB9,#FFBAC4,#FF99CE);
+        -webkit-transform: skewY(-10deg); 
+        -moz-transform: skewY(-10deg); 
+        -o-transform: skewY(-10deg); 
+        margin-left:20%
+    }
+    
+/* Cuerpo Objetivo */
+    #body_obj {
+        position:relative;
+        margin-top: 30px;
+        background: repeating-linear-gradient(to bottom,#FDDFD7,#FFBAC4,#FBFFB9,#FAB9A7,#FEFFEB,#FBFFB9,#FDDFD7 100%);
+    }
+    
+/* Título Armisticio */
+    #armis {
+        position: absolute;
+        z-index: 1;
+        font-size: 80px;
+        font-family: 'Bauhaus 93';
+        width: 500px; 
+        height: 15  0px; 
+        background: linear-gradient(#FBFFB9,#FFBAC4,#FF99CE);
+        -webkit-transform: skewY(-10deg); 
+        -moz-transform: skewY(-10deg); 
+        -o-transform: skewY(-10deg); 
+        margin-left:20%
+    }
+    
+/* Cuerpo Armisticio */
+    #body_armis {
+        position:relative;
+        margin-top: 30px;
+        background: repeating-linear-gradient(to bottom,#FDDFD7,#FFBAC4,#FBFFB9,#FAB9A7,#FEFFEB,#FBFFB9,#FDDFD7 100%);
+    }
+
+/* Título Introducción */
+    #intro {
+        position: absolute;
+        z-index: 1;
+        font-size: 80px;
+        font-family: 'Bauhaus 93';
+        width: 500px; 
+        height: 15  0px; 
+        background: linear-gradient(#FBFFB9,#FFBAC4,#FF99CE);
+        -webkit-transform: skewY(-10deg); 
+        -moz-transform: skewY(-10deg); 
+        -o-transform: skewY(-10deg); 
+        margin-left:20%
+    }
+    
+/* Cuerpo Introducción */
+    #body_intro {
+        position:relative;
+        margin-top: 30px;
+        background: repeating-linear-gradient(to bottom,#FDDFD7,#FFBAC4,#FBFFB9,#FAB9A7,#FEFFEB,#FBFFB9,#FDDFD7 100%);
+    }
+    
+/* Título Buzón */
+    #buzon {
+        position: absolute;
+        z-index: 1;
+        font-size: 80px;
+        font-family: 'Bauhaus 93';
+        width: 500px; 
+        height: 15  0px; 
+        -webkit-transform: skewY(-10deg); 
+        -moz-transform: skewY(-10deg); 
+        -o-transform: skewY(-10deg);
+        background: linear-gradient(#2d2d2d,#424242,#565656);
+    }
+    
+/* Cuerpo Buzón */
+    #body_buzon {
+        position:relative;
+        margin-top: 100px;
+        background: linear-gradient(#2d2d2d,#424242,#565656);
+    }
+    
+/* Button return a Indice */
+    #return1 {
+        position: absolute; 
+        right: 250px;
+        top: 20px;
+        font-size: 40px;
+        background: transparent; 
+    }
+    
+/* Button return arriba */
+    #return2 {
+        position: absolute;
+        right: 150px;
+        top: 20px;
+        font-size: 40px;
+        background: transparent; 
+    }
+    
+/* Button return abajo */
+    #return3 {
+        position: absolute;
+        right: 50px;
+        top: 20px;
+        font-size: 40px;
+        background: transparent; 
+    }
+    
